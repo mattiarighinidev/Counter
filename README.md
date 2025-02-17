@@ -6,7 +6,7 @@ A simple modern counter built with HTML, CSS, and JavaScript.
 
 * Increase value
 * Decrease value
-* Counter reset
+* Reset value
 
 ## 🚀 Getting Started
 
