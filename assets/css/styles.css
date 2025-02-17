@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+#counter-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#counter-value {
+    font-size: 3rem;
+    margin: 30px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.increment { background: #28a745; color: white; }
+.decrement { background: #dc3545; color: white; }
+.reset { background: #6130d2; color: white; }
+
+button:hover { opacity: 80%;}
+button:active { transform: translateY(4px); }
+h1 { font-size: 1.7rem;}
