@@ -58,6 +58,7 @@ function handleButtonClick(event) {
 
 document.addEventListener('DOMContentLoaded', function () {
     createCounterDisplay();
-    createButtons();   
+    createButtons();
+    updateCounterDisplay();
     document.getElementById('counter-container').addEventListener('click', handleButtonClick);
 });
